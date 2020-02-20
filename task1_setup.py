@@ -1,4 +1,5 @@
-to_read = "example.txt"
+import sys
+to_read = sys.argv[1]
 
 global_books = []
 libraries = []
