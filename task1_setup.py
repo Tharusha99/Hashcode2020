@@ -39,4 +39,4 @@ while n < len(lines):
     for i in this_library[2].split():
         libraries[-1].books.append(global_books[int(i)])
     i += 1
-    n += 3
+    n += 2
