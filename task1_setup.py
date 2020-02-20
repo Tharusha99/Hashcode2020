@@ -7,6 +7,16 @@ class book:
     def __init__(self,id,score):
         self.id,self.score=id,score
 
+    def __lt__(self, b):
+        return self.score < b.score
+
+    def __gt__(self, b):
+        return self.score > b.score
+
+    def __eq__(self, b):
+        return self.score == b.score
+
+
 class library:
     def __init__(self,signup,booksperday):
         self.signup,self.booksperday = signup,booksperday
