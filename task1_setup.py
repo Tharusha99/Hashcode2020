@@ -31,7 +31,7 @@ for id,score in enumerate(lines[2].split()):
     global_books.append(book(id,score))
 
 i = 0
-n = 4
+n = 2
 while n < len(lines):
     this_library = lines[n:n+3]
     parms = this_library[0].split()
